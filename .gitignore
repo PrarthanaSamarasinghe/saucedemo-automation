@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+
+# Test results (created on every run)
+results/
+output.xml
+log.html
+report.html
+*.png
+.pabotsuitenames
+pabot_manager.log
+
+# Windows-only driver (GitHub uses Linux)
+drivers/
+
+# Python cache
+__pycache__/
+*.pyc
