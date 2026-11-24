@@ -33,3 +33,6 @@ Login Error Should Be
 Login Should Succeed
     Wait Until Element Is Visible    css=.title
     Element Text Should Be           css=.title    Products
+
+Login Page Should Be Open
+    Wait Until Element Is Visible    ${LOGIN_BUTTON}

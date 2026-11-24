@@ -41,11 +41,7 @@ Customer Can Buy A Backpack End To End with Python Helper
     Open Cart
     Cart Should Contain Product    Sauce Labs Backpack
     Start Checkout
-    ${first}=    Generate First Name
-    ${last}=     Generate Last Name
-    ${zip}=      Generate Zip Code
-    Log To Console    Customer: ${first} ${last} ${zip}
-    Fill Customer Information    ${first}    ${last}    ${zip}
+    Fill Customer Information With Random Data
     Finish Order
     Order Should Be Complete
 
