@@ -6,6 +6,11 @@ pipeline {
         CHROMEDRIVER = 'C:\\jenkins\\drivers\\chromedriver.exe'
     }
 
+    triggers {
+        cron('H 2 * * *')
+        pollSCM('H/15 * * * *')
+    }
+
     stages {
         stage('Setup') {
             steps {
