@@ -54,7 +54,7 @@ Get Product Names
     ${names}=    Get Texts Of    ${PRODUCT_NAMES}
     RETURN    ${names}
 
- Get Product Prices
+Get Product Prices
     ${prices}=     Get Texts Of         ${PRODUCT_PRICES}
     ${numbers}=    Prices To Numbers    ${prices}
     RETURN    ${numbers}
